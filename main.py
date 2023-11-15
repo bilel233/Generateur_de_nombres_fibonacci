@@ -41,18 +41,27 @@ def fiboIterative(n):
     B=1
 
     cpt = 0             # le pas du compteur
-
-    for i in range(0,n):
-        C = A+B
+    if n == 0:
+        return 0,0
+    elif n == 1:
+        return 1,1
+    for i in range(2,n+1):              # parcourt de 2 à n+1
+        C = A + B
         A=B
         B=C
+
         cpt+=1
     return cpt,C
 # jeux de tests
 print(fiboIterative(0))
-
-
+print(fiboIterative(1))
+print(fiboIterative(10))
 
 print("========================================")
+
+b = int(input("veuillez saisir un entier"))
+res = fiboIterative(b)
+print(res)
+
 
 
