@@ -25,9 +25,10 @@ print(fibonacci(25))
 
 print("========================================")
 
-n = int(input("Veuilllez saisir un entier"))
+n = int(input("Veuilllez saisir un entier"))        # on saisit un entier
 
-a = fibonacci(n)
+a = fibonacci(n)                    # on stocke le resultat dans la variable a
+
 print("la valeur du n-ieme terme de fibonacci est",a)
 
 print("========================================")
