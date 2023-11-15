@@ -31,6 +31,28 @@ a = fibonacci(n)                    # on stocke le resultat dans la variable a
 
 print("la valeur du n-ieme terme de fibonacci est",a)
 
+####################################################
+
+print("Maintenant, on va generer la position du n-ieme nombre de fibonacci")
+
+def fiboIterative(n):
+    """renvoie la position du n'ieme terme de fibonacci ainsi que son n-ieme terme"""
+    A=0
+    B=1
+
+    cpt = 0             # le pas du compteur
+
+    for i in range(0,n):
+        C = A+B
+        A=B
+        B=C
+        cpt+=1
+    return cpt,C
+# jeux de tests
+print(fiboIterative(0))
+
+
+
 print("========================================")
 
 
