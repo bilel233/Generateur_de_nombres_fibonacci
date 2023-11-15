@@ -51,7 +51,7 @@ def fiboIterative(n):
         B=C
 
         cpt+=1
-    return cpt,C
+    return cpt,C            # on renvoie un tuple ; ie ; l'indice et le n-ieme terme de fibonacci.
 # jeux de tests
 print(fiboIterative(0))
 print(fiboIterative(1))
@@ -62,6 +62,7 @@ print("========================================")
 b = int(input("veuillez saisir un entier"))
 res = fiboIterative(b)
 print(res)
+print("========================================")
 
 
 
