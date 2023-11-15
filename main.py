@@ -20,4 +20,7 @@ def fibonacci(n):
 # jeux de tests
 print(fibonacci(2))
 print(fibonacci(3))
+print(fibonacci(20))
+print(fibonacci(25))
 
+print("========================================")
