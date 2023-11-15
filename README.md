@@ -62,4 +62,4 @@ Ce projet est sous licence MIT. Veuillez consulter le fichier `LICENSE` pour plu
 
 N'hésitez pas à me contacter si vous avez des questions ou des suggestions !
 
-**Note**: Veuillez noter que les sources fournies ne sont pas pertinentes pour la création d'un README pour un projet générateur de nombres de Fibonacci sur GitHub.
+
