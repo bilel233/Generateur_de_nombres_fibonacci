@@ -24,3 +24,12 @@ print(fibonacci(20))
 print(fibonacci(25))
 
 print("========================================")
+
+n = int(input("Veuilllez saisir un entier"))
+
+a = fibonacci(n)
+print("la valeur du n-ieme terme de fibonacci est",a)
+
+print("========================================")
+
+
